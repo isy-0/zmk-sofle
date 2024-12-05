@@ -195,3 +195,12 @@ layers:
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+combos:
+- p: [34, 35, 36]
+  k: {t: '$$mdi:keyboard-return$$', type: enter}
+- p: [21, 22, 23]
+  k: {t: '$$mdi:backspace$$', type: backspace}
+- p: [30, 29, 28]
+  k: Ctl+ C
+- p: [43, 42, 41]
+  k: Ctl+ V
