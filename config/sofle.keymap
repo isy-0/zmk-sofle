@@ -81,21 +81,21 @@
         macro_e_accent_1: macro_e_accent_1 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&none>;
+            bindings = <&kp APOS &kp E>;
             label = "MACRO_E_ACCENT_1";
         };
 
         macro_e_accent_2: macro_e_accent_2 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&none>;
+            bindings = <&kp GRAVE &kp E>;
             label = "MACRO_E_ACCENT_2";
         };
 
         macro_e_accent_3: macro_e_accent_3 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&none>;
+            bindings = <&kp CARET &kp E>;
             label = "MACRO_E_ACCENT_3";
         };
 
