@@ -81,9 +81,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '`', s: '~'}
-  - $$mdi:mouse-left-click-outline$$
-  - $$mdi:mouse-scroll-wheel$$
   - $$mdi:mouse-right-click-outline$$
+  - $$mdi:mouse-scroll-wheel$$
+  - $$mdi:mouse-left-click-outline$$
   - '&mkp MB4'
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - PG UP
@@ -269,9 +269,7 @@ combos:
   k: Ctl+ C
 - p: [43, 42, 41]
   k: Ctl+ V
-- p: [16, 15]
-  k: '&macro_e_accent_1'
-- p: [16, 17]
-  k: '&macro_e_accent_2'
-- p: [17, 16, 15]
-  k: '&macro_e_accent_3'
+- p: [27, 28, 29]
+  k: Ctl+ Z
+- p: [15, 16, 17]
+  k: Ctl+ X
