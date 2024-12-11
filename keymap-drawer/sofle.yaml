@@ -208,3 +208,5 @@ combos:
   k: Ctl+ Z
 - p: [15, 16, 17]
   k: Ctl+ X
+- p: [30, 27]
+  k: Ctl+ A
