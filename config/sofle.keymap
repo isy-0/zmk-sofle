@@ -70,6 +70,11 @@
             bindings = <&kp RC(X)>;
             key-positions = <15 16 17>;
         };
+
+        Select-all {
+            bindings = <&kp RC(A)>;
+            key-positions = <30 27>;
+        };
     };
 
     macros {
