@@ -38,6 +38,16 @@
         tap-ms = <30>;
     };
 
+    f_shift: f_shift {
+        compatible = "zmk,behavior-hold-tap";
+        label = "F_SHIFT";
+        bindings = <&kp>, <&kp>;
+
+        #binding-cells = <2>;
+        tapping-term-ms = <151>;
+        flavor = "hold-preferred";
+    };
+
     combos {
         compatible = "zmk,combos";
 
@@ -78,39 +88,11 @@
     };
 
     macros {
-        macro_e_accent_1: macro_e_accent_1 {
+        new_macro: new_macro {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp APOS &kp E>;
-            label = "MACRO_E_ACCENT_1";
-        };
-
-        macro_e_accent_2: macro_e_accent_2 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp GRAVE &kp E>;
-            label = "MACRO_E_ACCENT_2";
-        };
-
-        macro_e_accent_3: macro_e_accent_3 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp CARET &kp E>;
-            label = "MACRO_E_ACCENT_3";
-        };
-
-        macro_a_accent_1: macro_a_accent_1 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&none>;
-            label = "MACRO_A_ACCENT_1";
-        };
-
-        macro_u_accent_1: macro_u_accent_1 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&none>;
-            label = "MACRO_U_ACCENT_1";
+            bindings = <&f_shift LEFT_SHIFT F>;
+            label = "NEW_MACRO";
         };
     };
 
