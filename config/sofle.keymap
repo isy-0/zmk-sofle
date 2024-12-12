@@ -73,7 +73,7 @@
 
         Select-all {
             bindings = <&kp RC(A)>;
-            key-positions = <30 27>;
+            key-positions = <2 3 4>;
         };
     };
 
