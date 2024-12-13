@@ -86,6 +86,11 @@
             bindings = <&kp RC(A)>;
             key-positions = <2 3 4>;
         };
+
+        enter-left {
+            bindings = <&kp ENTER>;
+            key-positions = <30 29 28 56>;
+        };
     };
 
     keymap {
