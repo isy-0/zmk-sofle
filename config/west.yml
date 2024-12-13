@@ -9,7 +9,7 @@ manifest:
       remote: zmkfirmware
       revision: feat/pointers-move-scroll
       import: app/west.yml
-    - name: urchin-peripheral-animation
+    - name: mario-peripheral-animation
       remote: gpeye
       revision: main 
   self:
