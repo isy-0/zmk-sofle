@@ -210,3 +210,5 @@ combos:
   k: Ctl+ X
 - p: [2, 3, 4]
   k: Ctl+ A
+- p: [30, 29, 28, 56]
+  k: {t: '$$mdi:keyboard-return$$', type: enter}
