@@ -45,7 +45,7 @@
 
         #binding-cells = <2>;
         tapping-term-ms = <150>;
-        flavor = "tap-unless-interrupted";
+        flavor = "tap-preferred";
         hold-trigger-key-positions = <27 28 29 30 34 35 36 37>;
     };
 
@@ -88,15 +88,6 @@
         };
     };
 
-    macros {
-        new_macro: new_macro {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&homerow LEFT_SHIFT F>;
-            label = "NEW_MACRO";
-        };
-    };
-
     keymap {
         compatible = "zmk,keymap";
 
@@ -115,11 +106,11 @@
 
         layer_1 {
             bindings = <
-&kp GRAVE   &kp F1           &kp F2                      &kp F3           &homerow LA(F4) F4           &kp F5             &mmv MOVE_UP     &kp F6           &kp F7             &kp F8        &kp F9     &kp F10           &kp DEL
-&trans      &kp GRAVE        &mkp RCLK                   &mkp MCLK        &mkp LCLK                    &mkp MB4           &mmv MOVE_DOWN   &kp F11          &kp F12            &kp UP        &kp HOME   &kp MINUS         &kp EQUAL
-&trans      &kp TILDE        &homerow LEFT_ALT LEFT_ALT  &kp LEFT_SHIFT   &homerow RCTRL LEFT_CONTROL  &mkp MB5           &mmv MOVE_LEFT   &kp LEFT_ARROW   &kp DOWN           &kp UP_ARROW  &kp RIGHT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&trans      &rgb_ug RGB_OFF  &rgb_ug RGB_ON              &rgb_ug RGB_EFF  &rgb_ug RGB_EFR              &rgb_ug RGB_SPI    &mmv MOVE_RIGHT  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD    &kp INSERT    &kp F11    &kp F12           &trans
-&kp C_MUTE  &trans           &trans                      &trans           &trans                       &trans             &mkp LCLK        &kp DEL          &kp RC(BACKSPACE)  &trans        &trans     &trans
+&kp GRAVE   &kp F1           &kp F2          &kp F3           &homerow LA(F4) F4  &kp F5             &mmv MOVE_UP     &kp F6           &kp F7             &kp F8        &kp F9     &kp F10           &kp DEL
+&trans      &kp GRAVE        &mkp RCLK       &mkp MCLK        &mkp LCLK           &mkp MB4           &mmv MOVE_DOWN   &kp F11          &kp F12            &kp UP        &kp HOME   &kp MINUS         &kp EQUAL
+&trans      &kp TILDE        &kp LEFT_ALT    &kp LEFT_SHIFT   &kp RCTRL           &mkp MB5           &mmv MOVE_LEFT   &kp LEFT_ARROW   &kp DOWN           &kp UP_ARROW  &kp RIGHT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+&trans      &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR     &rgb_ug RGB_SPI    &mmv MOVE_RIGHT  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD    &kp INSERT    &kp F11    &kp F12           &trans
+&kp C_MUTE  &trans           &trans          &trans           &trans              &trans             &mkp LCLK        &kp DEL          &kp RC(BACKSPACE)  &trans        &trans     &trans
             >;
 
             display-name = "layer1";
