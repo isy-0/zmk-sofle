@@ -70,7 +70,7 @@ layers:
   - F1
   - F2
   - F3
-  - {t: F4, h: Alt+ F4}
+  - {t: F4, h: Alt+F4}
   - F5
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
   - F6
@@ -126,7 +126,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:backspace-reverse-outline$$
-  - {t: 'Ctl+ $$mdi:backspace$$', type: backspace}
+  - {t: 'Ctl+$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -201,14 +201,14 @@ combos:
 - p: [47, 48, 49]
   k: {t: '$$mdi:backspace$$', type: backspace}
 - p: [30, 29, 28]
-  k: Ctl+ C
+  k: Ctl+C
 - p: [43, 42, 41]
-  k: Ctl+ V
+  k: Ctl+V
 - p: [27, 28, 29]
-  k: Ctl+ Z
+  k: Ctl+Z
 - p: [15, 16, 17]
-  k: Ctl+ X
+  k: Ctl+X
 - p: [2, 3, 4]
-  k: Ctl+ A
+  k: Ctl+A
 - p: [30, 29, 28, 56]
   k: {t: '$$mdi:keyboard-return$$', type: enter}
