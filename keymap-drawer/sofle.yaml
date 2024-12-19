@@ -28,10 +28,10 @@ layers:
   - P
   - {t: \, s: '|'}
   - $$mdi:keyboard-tab$$
+  - A
   - S
-  - $$mdi:apple-keyboard-option$$
-  - $$mdi:apple-keyboard-shift$$
-  - $$mdi:apple-keyboard-control$$
+  - D
+  - F
   - G
   - $$mdi:arrow-left-bold$$
   - H
