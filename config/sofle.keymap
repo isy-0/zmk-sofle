@@ -3,6 +3,9 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/pointing.h>
+#include <dt-bindings/zmk/pointing.h>
+#include <dt-bindings/zmk/pointing.h>
 #include <dt-bindings/zmk/rgb.h>
 
 #define ZMK_MOUSE_DEFAULT_MOVE_VAL 1200  // 600
@@ -122,7 +125,7 @@
 &kp ESCAPE         &kp Q                     &kp W                     &kp E                       &kp R                  &kp T        &kp DOWN_ARROW   &kp Y          &kp U                           &kp I                        &kp O                      &kp P                         &kp BSLH
 &togglelong 3 TAB  &homerow_left LEFT_WIN A  &homerow_left LEFT_ALT S  &homerow_left LEFT_SHIFT D  &homerow_left RCTRL F  &kp G        &kp LEFT_ARROW   &kp H          &homerow_right RIGHT_CONTROL J  &homerow_right LEFT_SHIFT K  &homerow_right LEFT_ALT L  &homerow_right LEFT_GUI SEMI  &kp APOS
 &lt 0 A            &kp Z                     &kp X                     &kp C                       &kp V                  &kp B        &kp RIGHT_ARROW  &kp N          &kp M                           &kp COMMA                    &kp DOT                    &kp FSLH                      &trans
-&kp C_MUTE         &trans                    &trans                    &trans                      &lt 1 TAB              &kp SPACE    &kp ENTER        &kp BACKSPACE  &togglelong 2 ENTER             &kp LSHIFT                   &trans                     &trans
+&kp C_MUTE         &trans                    &trans                    &trans                      &togglelong 1 TAB      &kp SPACE    &kp ENTER        &kp BACKSPACE  &togglelong 2 ENTER             &kp LSHIFT                   &trans                     &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
@@ -135,7 +138,7 @@
 &trans      &kp GRAVE        &kp PRINTSCREEN  &kp UP_ARROW     &mkp RCLK                &kp LEFT_BRACE          &mmv MOVE_DOWN   &kp RIGHT_BRACE        &kp N7        &kp N8        &kp N9        &kp N0        &kp EQUAL
 &trans      &kp LEFT_WIN     &kp LEFT         &kp DOWN         &kp RIGHT                &kp LEFT_PARENTHESIS    &mmv MOVE_LEFT   &kp RIGHT_PARENTHESIS  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp MINUS     &kp PLUS
 &trans      &rgb_ug RGB_OFF  &rgb_ug RGB_ON   &rgb_ug RGB_EFF  &rgb_ug RGB_EFR          &kp LEFT_BRACKET        &mmv MOVE_RIGHT  &kp RIGHT_BRACKET      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp ASTERISK  &trans
-&kp C_MUTE  &trans           &trans           &trans           &trans                   &trans                  &mkp LCLK        &kp BACKSPACE          &kp DEL       &kp PERIOD    &trans        &trans
+&kp C_MUTE  &trans           &trans           &trans           &trans                   &trans                  &mkp LCLK        &kp BACKSPACE          &trans        &kp PERIOD    &trans        &trans
             >;
 
             display-name = "layer1";
@@ -157,11 +160,11 @@
         layer_3 {
             display-name = "LAYER0";
             bindings = <
-&trans      &kp N1  &kp N2  &kp N3  &kp N4  &kp N5       &kp UP_ARROW     &kp N6         &kp N7     &kp N8     &kp N9   &kp N0    &kp EQUAL
-&trans      &kp Q   &kp W   &kp E   &kp R   &kp T        &kp DOWN_ARROW   &kp Y          &kp U      &kp I      &kp O    &kp P     &kp BSLH
-&trans      &kp A   &kp S   &kp D   &kp F   &kp G        &kp LEFT_ARROW   &kp H          &kp J      &kp K      &kp L    &kp SEMI  &kp APOS
-&trans      &kp Z   &kp X   &kp C   &kp V   &kp B        &kp RIGHT_ARROW  &kp N          &kp M      &kp COMMA  &kp DOT  &kp FSLH  &trans
-&kp C_MUTE  &trans  &trans  &trans  &trans  &kp SPACE    &kp ENTER        &kp BACKSPACE  &kp ENTER  &trans     &trans   &trans
+&trans      &kp N1  &kp N2  &kp N3  &kp N4  &kp N5       &kp UP_ARROW     &kp N6         &kp N7  &kp N8     &kp N9   &kp N0    &kp EQUAL
+&trans      &kp Q   &kp W   &kp E   &kp R   &kp T        &kp DOWN_ARROW   &kp Y          &kp U   &kp I      &kp O    &kp P     &kp BSLH
+&trans      &kp A   &kp S   &kp D   &kp F   &kp G        &kp LEFT_ARROW   &kp H          &kp J   &kp K      &kp L    &kp SEMI  &kp APOS
+&trans      &kp Z   &kp X   &kp C   &kp V   &kp B        &kp RIGHT_ARROW  &kp N          &kp M   &kp COMMA  &kp DOT  &kp FSLH  &trans
+&kp C_MUTE  &trans  &trans  &trans  &trans  &kp SPACE    &kp ENTER        &kp BACKSPACE  &trans  &trans     &trans   &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
