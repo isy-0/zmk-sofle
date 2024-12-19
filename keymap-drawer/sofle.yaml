@@ -92,7 +92,7 @@ layers:
   - {t: '9', s: (}
   - {t: '0', s: )}
   - {t: '=', s: +}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:apple-keyboard-shift$$
   - LEFT WIN
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
