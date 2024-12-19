@@ -28,10 +28,10 @@ layers:
   - P
   - {t: \, s: '|'}
   - $$mdi:keyboard-tab$$
-  - {t: A, h: LEFT WIN}
-  - {t: S, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: D, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: F, h: '$$mdi:apple-keyboard-control$$'}
+  - S
+  - $$mdi:apple-keyboard-option$$
+  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-control$$
   - G
   - $$mdi:arrow-left-bold$$
   - H
@@ -69,7 +69,7 @@ layers:
   - {t: '`', s: '~'}
   - F1
   - F2
-  - F3
+  - PRINTSCREEN
   - {t: F4, h: Alt+F4}
   - F5
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
