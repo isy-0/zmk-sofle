@@ -126,7 +126,7 @@
 &trans      &kp GRAVE        &mkp RCLK       &mkp MCLK        &mkp LCLK                &mkp MB4           &mmv MOVE_DOWN   &kp F11          &kp F12            &kp UP        &kp HOME   &kp MINUS         &kp EQUAL
 &trans      &kp LEFT_WIN     &kp LEFT_ALT    &kp LEFT_SHIFT   &kp RCTRL                &mkp MB5           &mmv MOVE_LEFT   &kp LEFT_ARROW   &kp DOWN           &kp UP_ARROW  &kp RIGHT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
 &trans      &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR          &rgb_ug RGB_SPI    &mmv MOVE_RIGHT  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD    &kp INSERT    &kp F11    &kp F12           &trans
-&kp C_MUTE  &trans           &trans          &trans           &trans                   &trans             &mkp LCLK        &kp DEL          &kp RC(BACKSPACE)  &mo 3         &trans     &trans
+&kp C_MUTE  &trans           &trans          &trans           &trans                   &trans             &mkp LCLK        &kp DEL          &kp RC(BACKSPACE)  &tog 3         &trans     &trans
             >;
 
             display-name = "layer1";
