@@ -1,9 +1,12 @@
 #include <behaviors/mouse_keys.dtsi>
 #include <dt-bindings/zmk/mouse.h>
+#include "ansi_fr_remapping.h"
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
-#include "ansi_fr_remapping.h"
+#include <dt-bindings/zmk/pointing.h>
+#include <dt-bindings/zmk/pointing.h>
+#include <dt-bindings/zmk/pointing.h>
 #include <dt-bindings/zmk/rgb.h>
 
 #define ZMK_MOUSE_DEFAULT_MOVE_VAL 1200  // 600
@@ -70,6 +73,16 @@
         flavor = "tap-preferred";
     };
 
+    holdtaptappreferred: holdtaptappreferred {
+        compatible = "zmk,behavior-hold-tap";
+        label = "HOLDTAPTAPPREFERRED";
+        bindings = <&kp>, <&kp>;
+
+        #binding-cells = <2>;
+        tapping-term-ms = <200>;
+        flavor = "tap-preferred";
+    };
+
     combos {
         compatible = "zmk,combos";
 
@@ -128,11 +141,11 @@
 
         layer0 {
             bindings = <
-&trans             &kp N1                    &kp N2                    &kp N3                        &kp N4                      &kp N5       &kp UP_ARROW     &kp N6         &kp N7                       &kp N8                         &kp N9                     &kp N0                        &trans
-&kp ESCAPE         &kp Q                     &kp W                     &kp E                         &kp R                       &kp T        &kp DOWN_ARROW   &kp Y          &kp U                        &kp I                          &kp O                      &kp P                         &kp BSLH
-&togglelong 3 TAB  &homerow_left LEFT_WIN A  &homerow_left LEFT_ALT S  &homerow_left LEFT_CONTROL D  &homerow_left LEFT_SHIFT F  &kp G        &kp LEFT_ARROW   &kp H          &homerow_right LEFT_SHIFT J  &homerow_right LEFT_CONTROL K  &homerow_right LEFT_ALT L  &homerow_right LEFT_GUI SEMI  &kp APOS
-&lt 0 A            &kp Z                     &kp X                     &kp C                         &kp V                       &kp B        &kp RIGHT_ARROW  &kp N          &kp M                        &kp COMMA                      &kp DOT                    &kp FSLH                      &trans
-&kp C_MUTE         &trans                    &trans                    &kp LEFT_SHIFT                &lt 1 TAB                   &kp SPACE    &kp ENTER        &kp BACKSPACE  &lt 2 ENTER                  &kp LEFT_ALT                   &trans                     &trans
+&trans             &kp N1                           &kp N2                           &kp N3                           &kp N4                           &kp N5       &kp UP_ARROW     &kp N6         &kp N7                       &kp N8                         &kp N9                     &kp N0                        &trans
+&kp ESCAPE         &holdtaptappreferred NUMBER_1 Q  &holdtaptappreferred NUMBER_2 W  &holdtaptappreferred NUMBER_3 E  &holdtaptappreferred NUMBER_4 R  &kp T        &kp DOWN_ARROW   &kp Y          &kp U                        &kp I                          &kp O                      &kp P                         &kp BSLH
+&togglelong 3 TAB  &homerow_left LEFT_WIN A         &homerow_left LEFT_ALT S         &homerow_left LEFT_CONTROL D     &homerow_left LEFT_SHIFT F       &kp G        &kp LEFT_ARROW   &kp H          &homerow_right LEFT_SHIFT J  &homerow_right LEFT_CONTROL K  &homerow_right LEFT_ALT L  &homerow_right LEFT_GUI SEMI  &kp APOS
+&lt 0 A            &kp Z                            &kp X                            &kp C                            &kp V                            &kp B        &kp RIGHT_ARROW  &kp N          &kp M                        &kp COMMA                      &kp DOT                    &kp FSLH                      &trans
+&kp C_MUTE         &trans                           &trans                           &kp LEFT_SHIFT                   &lt 1 TAB                        &kp SPACE    &kp ENTER        &kp BACKSPACE  &lt 2 ENTER                  &kp LEFT_ALT                   &trans                     &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
@@ -141,10 +154,10 @@
 
         layer_1 {
             bindings = <
-&trans          &kp F1           &kp F2           &kp PRINTSCREEN  &homerow_left LA(F4) F4  &kp F5                  &mmv MOVE_UP     &kp F6                 &kp F7        &kp F8        &kp F9        &kp F10       &trans
-&trans          &kp GRAVE        &kp PRINTSCREEN  &kp UP_ARROW     &mkp RCLK                &kp LEFT_BRACE          &mmv MOVE_DOWN   &kp RIGHT_BRACE        &kp N7        &kp N8        &kp N9        &kp N0        &kp EQUAL
-&kp LEFT_SHIFT  &kp LEFT_WIN     &kp LEFT         &kp DOWN         &kp RIGHT                &kp LEFT_PARENTHESIS    &mmv MOVE_LEFT   &kp RIGHT_PARENTHESIS  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp MINUS     &kp PLUS
-&trans          &rgb_ug RGB_OFF  &rgb_ug RGB_ON   &rgb_ug RGB_EFF  &rgb_ug RGB_EFR          &kp LEFT_BRACKET        &mmv MOVE_RIGHT  &kp RIGHT_BRACKET      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp ASTERISK  &trans
+&trans          &kp F1           &kp F2           &kp PRINTSCREEN  &homerow_left LA(F4) F4  &kp F5                  &mmv MOVE_UP     &kp F6                 &kp F7        &kp F8        &kp F9        &kp F10                           &trans
+&trans          &kp GRAVE        &kp PRINTSCREEN  &kp UP_ARROW     &mkp RCLK                &kp LEFT_BRACE          &mmv MOVE_DOWN   &kp RIGHT_BRACE        &kp N7        &kp N8        &kp N9        &kp N0                            &kp EQUAL
+&kp LEFT_SHIFT  &kp LEFT_WIN     &kp LEFT         &kp DOWN         &kp RIGHT                &kp LEFT_PARENTHESIS    &mmv MOVE_LEFT   &kp RIGHT_PARENTHESIS  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &holdtaptappreferred UNDER MINUS  &kp PLUS
+&trans          &rgb_ug RGB_OFF  &rgb_ug RGB_ON   &rgb_ug RGB_EFF  &rgb_ug RGB_EFR          &kp LEFT_BRACKET        &mmv MOVE_RIGHT  &kp RIGHT_BRACKET      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp ASTERISK                      &trans
 &kp C_MUTE      &trans           &trans           &trans           &trans                   &trans                  &mkp LCLK        &kp BACKSPACE          &trans        &trans        &trans        &trans
             >;
 
