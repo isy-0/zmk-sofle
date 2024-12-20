@@ -15,14 +15,14 @@ layers:
   - {t: '0', s: )}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:keyboard-esc$$
-  - {t: Q, h: '1'}
-  - {t: W, h: '2'}
-  - {t: E, h: '3'}
-  - {t: R, h: '4'}
+  - {t: Q, h: \}
+  - {t: W, h: Alt+E}
+  - {t: E, h: '['}
+  - {t: R, h: Alt+E}
   - T
   - $$mdi:arrow-down-bold$$
   - Y
-  - U
+  - {t: U, h: '='}
   - I
   - O
   - P
@@ -43,7 +43,7 @@ layers:
   - {t: A, h: main}
   - Z
   - X
-  - C
+  - {t: C, h: Alt+C}
   - V
   - B
   - $$mdi:arrow-right-bold$$
