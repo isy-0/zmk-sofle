@@ -15,15 +15,15 @@ layers:
   - {t: '0', s: )}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:keyboard-esc$$
-  - {t: Q, h: \}
-  - {t: W, h: Alt+E}
-  - {t: E, h: '['}
-  - {t: R, h: Alt+E}
+  - {t: Q, h: agrv}
+  - {t: W, h: ecir}
+  - {t: E, h: eacu}
+  - {t: R, h: egrv}
   - T
   - $$mdi:arrow-down-bold$$
   - Y
-  - {t: U, h: '='}
-  - I
+  - {t: U, h: ugrv}
+  - {t: I, h: icir}
   - O
   - P
   - {t: \, s: '|'}
