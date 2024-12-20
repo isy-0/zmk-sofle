@@ -15,10 +15,10 @@ layers:
   - {t: '0', s: )}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:keyboard-esc$$
-  - Q
-  - W
-  - E
-  - R
+  - {t: Q, h: '1'}
+  - {t: W, h: '2'}
+  - {t: E, h: '3'}
+  - {t: R, h: '4'}
   - T
   - $$mdi:arrow-down-bold$$
   - Y
@@ -103,7 +103,7 @@ layers:
   - '4'
   - {t: '5', s: '%'}
   - '6'
-  - {t: '-', s: _}
+  - {t: '-', h: _, s: _}
   - +
   - {t: '$$mdi:transfer$$', type: trans}
   - RGB OFF
