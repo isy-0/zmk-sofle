@@ -48,7 +48,7 @@
         #binding-cells = <2>;
         tapping-term-ms = <250>;
         flavor = "hold-preferred";
-        hold-trigger-key-positions = <7 8 9 10 11 12 20 21 22 23 24 25 33 34 35 36 37 38 46 47 48 49 50 51 60 61 62 63 59 32 45 58 19 6 26 13 1 2 3 4 5 39>;
+        hold-trigger-key-positions = <7 8 9 10 11 12 20 21 22 23 24 25 33 34 35 36 37 38 46 47 48 49 50 51 60 61 62 63 59 32 45 58 19 6 26 13 39 1 2 3 4 5 57 56>;
     };
 
     homerow_right: homerow_right {
@@ -59,7 +59,7 @@
         #binding-cells = <2>;
         tapping-term-ms = <250>;
         flavor = "hold-preferred";
-        hold-trigger-key-positions = <0 1 13 14 15 16 17 18 19 26 27 28 29 30 31 32 39 40 41 42 43 44 52 53 54 55 56 57 58 0 1 2 3 4 5 6 13 14 15 16 17 18 32 45 58 7 8 9 10 11 12 25 38 59 60>;
+        hold-trigger-key-positions = <0 1 13 14 15 16 17 18 19 26 27 28 29 30 31 32 39 40 41 42 43 44 52 53 54 55 56 58 0 1 2 3 4 5 6 13 14 15 16 17 18 32 45 58 7 8 9 10 11 12 25 38 59 60>;
     };
 
     togglelong: togglelong {
@@ -113,6 +113,15 @@
         enter-left {
             bindings = <&kp ENTER>;
             key-positions = <30 29 28 56>;
+        };
+    };
+
+    macros {
+        accent1: accent1 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&accent1>;
+            label = "ACCENT1";
         };
     };
 
