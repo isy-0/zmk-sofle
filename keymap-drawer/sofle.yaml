@@ -104,7 +104,7 @@ layers:
   - {t: '5', s: '%'}
   - '6'
   - {t: '-', h: _, s: _}
-  - +
+  - {t: +, h: '='}
   - {t: '$$mdi:transfer$$', type: trans}
   - RGB OFF
   - RGB ON
