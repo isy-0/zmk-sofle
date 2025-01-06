@@ -56,7 +56,7 @@ layers:
   - $$mdi:volume-off$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - main
+  - LEFT META
   - {t: '$$mdi:keyboard-tab$$', h: numpad}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
@@ -326,15 +326,15 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
-- p: [30, 29, 28]
+- p: [29, 28]
   k: Ctl+C
-- p: [43, 42, 41]
+- p: [30, 29]
   k: Ctl+V
-- p: [27, 28, 29]
+- p: [14, 15]
   k: Ctl+Z
-- p: [15, 16, 17]
+- p: [28, 27]
   k: Ctl+X
-- p: [2, 3, 4]
+- p: [16, 17]
   k: Ctl+A
-- p: [30, 29, 28, 56]
+- p: [44, 43]
   k: {t: '$$mdi:keyboard-return$$', type: enter}
