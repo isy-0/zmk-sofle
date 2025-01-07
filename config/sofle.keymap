@@ -162,7 +162,7 @@
 &trans     &kp LEFT_WIN     &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &bt BT_CLR_ALL    &mmv MOVE_DOWN   &kp F11    &kp F12        &trans        &trans     &trans             &trans
 &trans     &kp EXCLAMATION  &kp AT        &kp HASH          &kp DOLLAR      &kp PERCENT       &mmv MOVE_LEFT   &kp CARET  &kp AMPERSAND  &kp ASTERISK  &kp SQT    &kp DOUBLE_QUOTES  &trans
 &trans     &kp LEFT_GUI     &trans        &bootloader       &trans          &trans            &mmv MOVE_RIGHT  &kp MINUS  &kp EQUAL      &sys_reset    &soft_off  &bootloader        &trans
-&trans     &trans           &trans        &trans            &trans          &trans            &mkp LCLK        &trans     &trans         &trans        &trans     &trans
+&trans     &trans           &trans        &trans            &trans          &trans            &mkp LCLK        &mkp LCLK  &mkp RCLK      &trans        &trans     &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
