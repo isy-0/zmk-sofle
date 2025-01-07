@@ -194,11 +194,11 @@
 
         ArrowsFunc {
             bindings = <
-&trans  &trans   &trans   &trans   &trans  &trans    &trans  &trans  &trans          &trans          &trans           &trans  &trans
-&trans  &kt F4   &kp F3   &kp F2   &kp F1  &trans    &trans  &trans  &trans          &kp UP_ARROW    &trans           &trans  &trans
-&trans  &kp F8   &kp F7   &kp F6   &kp F5  &trans    &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans
-&trans  &kp F12  &kp F11  &kp F10  &kp F9  &trans    &trans  &trans  &trans          &trans          &trans           &trans  &trans
-&trans  &trans   &trans   &trans   &trans  &trans    &trans  &trans  &trans          &trans          &trans           &trans
+&trans  &trans        &trans        &trans            &trans          &trans    &trans  &trans  &trans          &trans          &trans           &trans  &trans
+&trans  &kt F4        &kp F3        &kp F2            &kp F1          &trans    &trans  &trans  &trans          &kp UP_ARROW    &trans           &trans  &trans
+&trans  &kp LEFT_WIN  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &trans    &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans
+&trans  &kp F12       &kp F11       &kp F10           &kp F9          &trans    &trans  &trans  &kp F5          &kp F6          &kp F7           &kp F8  &trans
+&trans  &trans        &trans        &trans            &trans          &trans    &trans  &trans  &trans          &trans          &trans           &trans
             >;
         };
     };
