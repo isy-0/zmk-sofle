@@ -144,11 +144,11 @@
 
         layer_1 {
             bindings = <
-&trans      &kp F1          &kp F2           &kp F3            &kp F4     &kp F5                  &mmv MOVE_UP     &kp F6                 &kp F7        &kp F8        &kp F9        &kp F10                           &trans
-&trans      &kp GRAVE       &kp PRINTSCREEN  &kp UP_ARROW      &mkp RCLK  &kp LEFT_BRACE          &mmv MOVE_DOWN   &kp RIGHT_BRACE        &kp N7        &kp N8        &kp N9        &kp N0                            &kp EQUAL
-&trans      &kp TILDE       &kp LEFT         &kp DOWN          &kp RIGHT  &kp LEFT_PARENTHESIS    &mmv MOVE_LEFT   &kp RIGHT_PARENTHESIS  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &holdtaptappreferred UNDER MINUS  &holdtaptappreferred EQUAL PLUS
-&trans      &kp LEFT_SHIFT  &kp LEFT_ALT     &kp LEFT_CONTROL  &kp ENTER  &kp LEFT_BRACKET        &mmv MOVE_RIGHT  &kp RIGHT_BRACKET      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp ASTERISK                      &trans
-&kp C_MUTE  &trans          &trans           &trans            &trans     &trans                  &mkp LCLK        &kp BACKSPACE          &trans        &trans        &trans        &trans
+&trans        &kp F1          &kp F2           &kp F3            &kp F4     &kp F5                  &mmv MOVE_UP     &kp F6                 &kp F7        &kp F8        &kp F9        &kp F10                           &trans
+&trans        &kp GRAVE       &kp PRINTSCREEN  &kp UP_ARROW      &mkp RCLK  &kp LEFT_BRACE          &mmv MOVE_DOWN   &kp RIGHT_BRACE        &kp N7        &kp N8        &kp N9        &kp N0                            &kp EQUAL
+&kp LEFT_WIN  &kp TILDE       &kp LEFT         &kp DOWN          &kp RIGHT  &kp LEFT_PARENTHESIS    &mmv MOVE_LEFT   &kp RIGHT_PARENTHESIS  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &holdtaptappreferred UNDER MINUS  &holdtaptappreferred EQUAL PLUS
+&trans        &kp LEFT_SHIFT  &kp LEFT_ALT     &kp LEFT_CONTROL  &kp ENTER  &kp LEFT_BRACKET        &mmv MOVE_RIGHT  &kp RIGHT_BRACKET      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp ASTERISK                      &trans
+&kp C_MUTE    &trans          &trans           &trans            &trans     &trans                  &mkp LCLK        &kp BACKSPACE          &kp LEFT_WIN  &trans        &trans        &trans
             >;
 
             display-name = "numpad";
