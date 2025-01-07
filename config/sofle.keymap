@@ -5,6 +5,10 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/pointing.h>
+#include <dt-bindings/zmk/pointing.h>
+#include <dt-bindings/zmk/pointing.h>
 
 #define ZMK_MOUSE_DEFAULT_MOVE_VAL 1200  // 600
 #define ZMK_MOUSE_DEFAULT_SCRL_VAL 20    // 10
@@ -188,13 +192,13 @@
             >;
         };
 
-        Arrows {
+        ArrowsFunc {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans          &trans          &trans           &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans          &kp UP_ARROW    &trans           &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans          &trans          &trans           &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans          &trans          &trans           &trans
+&trans  &trans   &trans   &trans   &trans  &trans    &trans  &trans  &trans          &trans          &trans           &trans  &trans
+&trans  &kt F4   &kp F3   &kp F2   &kp F1  &trans    &trans  &trans  &trans          &kp UP_ARROW    &trans           &trans  &trans
+&trans  &kp F8   &kp F7   &kp F6   &kp F5  &trans    &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans
+&trans  &kp F12  &kp F11  &kp F10  &kp F9  &trans    &trans  &trans  &trans          &trans          &trans           &trans  &trans
+&trans  &trans   &trans   &trans   &trans  &trans    &trans  &trans  &trans          &trans          &trans           &trans
             >;
         };
     };
