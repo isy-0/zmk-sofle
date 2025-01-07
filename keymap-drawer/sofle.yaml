@@ -80,10 +80,10 @@ layers:
   - F10
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '`', s: '~'}
+  - {t: '`', h: '~', s: '~'}
   - PRINTSCREEN
-  - $$mdi:arrow-up-bold$$
-  - $$mdi:mouse-right-click-outline$$
+  - $$mdi:apple-keyboard-option$$
+  - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - '{'
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - '}'
@@ -92,11 +92,11 @@ layers:
   - {t: '9', s: (}
   - {t: '0', s: )}
   - {t: '=', s: +}
+  - {t: '$$mdi:transfer$$', type: trans}
   - LEFT WIN
-  - '~'
-  - $$mdi:arrow-left-bold$$
-  - $$mdi:arrow-down-bold$$
-  - $$mdi:arrow-right-bold$$
+  - $$mdi:apple-keyboard-option$$
+  - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-shift$$
   - (
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - )
@@ -106,9 +106,9 @@ layers:
   - {t: '-', h: _, s: _}
   - {t: +, h: '='}
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:apple-keyboard-shift$$
-  - $$mdi:apple-keyboard-option$$
-  - $$mdi:apple-keyboard-control$$
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '[', s: '{'}
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
@@ -126,7 +126,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:backspace$$', type: backspace}
-  - LEFT WIN
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
