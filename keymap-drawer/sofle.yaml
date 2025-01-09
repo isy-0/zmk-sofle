@@ -104,7 +104,7 @@ layers:
   - {t: '5', s: '%'}
   - '6'
   - {t: '-', h: _, s: _}
-  - {t: '=', h: +, s: +}
+  - {t: +, h: '='}
   - {t: '$$mdi:transfer$$', type: trans}
   - LEFT WIN
   - $$mdi:apple-keyboard-option$$
@@ -197,7 +197,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   Type only:
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '1', s: '!'}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '2', s: '@'}
   - {t: '3', s: '#'}
   - {t: '4', s: $}
@@ -234,7 +234,7 @@ layers:
   - K
   - L
   - {t: ;, s: ':'}
-  - .
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - Z
   - X
