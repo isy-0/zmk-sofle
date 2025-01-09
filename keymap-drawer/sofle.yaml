@@ -104,7 +104,7 @@ layers:
   - {t: '5', s: '%'}
   - '6'
   - {t: '-', h: _, s: _}
-  - {t: +, h: '='}
+  - {t: '=', h: +, s: +}
   - {t: '$$mdi:transfer$$', type: trans}
   - LEFT WIN
   - $$mdi:apple-keyboard-option$$
