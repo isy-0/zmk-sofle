@@ -143,7 +143,7 @@
             bindings = <
 &trans      &trans            &trans           &trans            &trans           &trans                  &mmv MOVE_UP     &trans                 &trans          &trans        &trans        &trans                            &trans
 &trans      &mt TILDE GRAVE   &kp PRINTSCREEN  &kp UP_ARROW      &bt BT_SEL 0     &kp LEFT_BRACE          &mmv MOVE_DOWN   &kp RIGHT_BRACE        &kp N7          &kp N8        &kp N9        &kp N0                            &trans
-&trans      &kp LEFT_CONTROL  &kp LEFT_ARROW   &kp DOWN_ARROW    &kp RIGHT_ARROW  &kp LEFT_PARENTHESIS    &mmv MOVE_LEFT   &kp RIGHT_PARENTHESIS  &kp NUMBER_4    &kp N5        &kp NUMBER_6  &holdtaptappreferred UNDER MINUS  &holdtaptappreferred EQUAL PLUS
+&trans      &kp LEFT_CONTROL  &kp LEFT_ARROW   &kp DOWN_ARROW    &kp RIGHT_ARROW  &kp LEFT_PARENTHESIS    &mmv MOVE_LEFT   &kp RIGHT_PARENTHESIS  &kp NUMBER_4    &kp N5        &kp NUMBER_6  &holdtaptappreferred UNDER MINUS  &holdtaptappreferred PLUS EQUAL
 &trans      &kp LEFT_WIN      &kp LEFT_ALT     &kp LEFT_CONTROL  &kp LEFT_SHIFT   &kp LEFT_BRACKET        &mmv MOVE_RIGHT  &kp RIGHT_BRACKET      &kp NUMBER_1    &kp NUMBER_2  &kp NUMBER_3  &kp ASTERISK                      &trans
 &kp C_MUTE  &trans            &trans           &trans            &trans           &trans                  &mkp LCLK        &kp DELETE             &kp LEFT_SHIFT  &trans        &trans        &trans
             >;
