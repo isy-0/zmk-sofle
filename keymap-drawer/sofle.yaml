@@ -395,9 +395,9 @@ combos:
   k: Ctl+C
 - p: [30, 29]
   k: Ctl+V
-- p: [14, 15]
+- p: [15, 16]
   k: Ctl+Z
-- p: [28, 27]
+- p: [31, 30]
   k: Ctl+X
 - p: [16, 17]
   k: Ctl+A
